@@ -27,7 +27,8 @@ class WeatherService {
         humidity: 45,
         light: 12.5,
         temperature: 22.3,
-        co2: 420,
+        co2_concentration: 420,
+        battery: 100,
         timestamp: Date.now()
       }
     };

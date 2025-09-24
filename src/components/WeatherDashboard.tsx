@@ -43,7 +43,7 @@ const WeatherDashboard: React.FC<WeatherDashboardProps> = ({ data }) => {
     },
     {
       title: 'CO2 Level',
-      value: data.co2,
+      value: data.co2_concentration,
       unit: 'ppm',
       icon: Wind,
       color: 'bg-gradient-to-r from-green-500 to-emerald-500',

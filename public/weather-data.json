@@ -5,7 +5,7 @@
     "humidity": 45,
     "light": 12.5,
     "temperature": 20.5,
-    "co2": 10,
+    "co2_concentration": 10,
     "battery" : 100,
     "timestamp": 1704067200000
   },
@@ -15,7 +15,7 @@
     "humidity": 52,
     "light": 8.7,
     "temperature": 24.1,
-    "co2": 380,
+    "co2_concentration": 380,
     "battery" : 100,
     "timestamp": 1704067200000
   },
@@ -25,7 +25,7 @@
     "humidity": 38,
     "light": 15.2,
     "temperature": 20.8,
-    "co2": 450,
+    "co2_concentration": 450,
     "battery" : 100,
     "timestamp": 1704067200000
   }

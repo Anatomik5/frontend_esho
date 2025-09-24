@@ -4,7 +4,7 @@ export interface WeatherData {
   humidity: number;
   light: number;
   temperature: number;
-  co2: number;
+  co2_concentration: number;
   battery: number,
   timestamp: number;
 }
