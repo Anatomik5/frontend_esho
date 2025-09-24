@@ -25,7 +25,7 @@ class WeatherService {
         device: "Living Room",
         pressure: 1013.2,
         humidity: 45,
-        radiation: 12.5,
+        light: 12.5,
         temperature: 22.3,
         co2: 420,
         timestamp: Date.now()

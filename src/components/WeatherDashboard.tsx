@@ -34,9 +34,9 @@ const WeatherDashboard: React.FC<WeatherDashboardProps> = ({ data }) => {
       bgColor: 'bg-gradient-to-br from-purple-50 to-indigo-50'
     },
     {
-      title: 'Radiation',
-      value: data.radiation,
-      unit: 'µSv/h',
+      title: 'Ambient Light',
+      value: data.light,
+      unit: 'lux',
       icon: Sun,
       color: 'bg-gradient-to-r from-yellow-500 to-amber-500',
       bgColor: 'bg-gradient-to-br from-yellow-50 to-amber-50'

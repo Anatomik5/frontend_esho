@@ -2,7 +2,7 @@ export interface WeatherData {
   device: string;
   pressure: number;
   humidity: number;
-  radiation: number;
+  light: number;
   temperature: number;
   co2: number;
   timestamp: number;

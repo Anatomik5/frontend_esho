@@ -3,8 +3,8 @@
     "device": "Living Room",
     "pressure": 1013.2,
     "humidity": 45,
-    "radiation": 12.5,
-    "temperature": 220.5,
+    "light": 12.5,
+    "temperature": 20.5,
     "co2": 10,
     "timestamp": 1704067200000
   },
@@ -12,7 +12,7 @@
     "device": "Kitchen",
     "pressure": 1012.8,
     "humidity": 52,
-    "radiation": 8.7,
+    "light": 8.7,
     "temperature": 24.1,
     "co2": 380,
     "timestamp": 1704067200000
@@ -21,7 +21,7 @@
     "device": "Bedroom",
     "pressure": 1014.1,
     "humidity": 38,
-    "radiation": 15.2,
+    "light": 15.2,
     "temperature": 20.8,
     "co2": 450,
     "timestamp": 1704067200000
