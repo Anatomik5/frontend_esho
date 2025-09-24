@@ -5,6 +5,7 @@ export interface WeatherData {
   light: number;
   temperature: number;
   co2: number;
+  battery: number,
   timestamp: number;
 }
 

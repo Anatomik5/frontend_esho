@@ -1,5 +1,5 @@
 import React from 'react';
-import { Thermometer, Droplets, Gauge, Wind, Sun } from 'lucide-react';
+import { Thermometer, Droplets, Gauge, Wind, Sun, Battery } from 'lucide-react';
 import { WeatherData } from '../types/weather';
 import MetricCard from './MetricCard';
 
@@ -46,6 +46,14 @@ const WeatherDashboard: React.FC<WeatherDashboardProps> = ({ data }) => {
       value: data.co2,
       unit: 'ppm',
       icon: Wind,
+      color: 'bg-gradient-to-r from-green-500 to-emerald-500',
+      bgColor: 'bg-gradient-to-br from-green-50 to-emerald-50'
+    },
+    {
+      title: 'Battery Level',
+      value: data.battery,
+      unit: '%',
+      icon: Battery,
       color: 'bg-gradient-to-r from-green-500 to-emerald-500',
       bgColor: 'bg-gradient-to-br from-green-50 to-emerald-50'
     }
